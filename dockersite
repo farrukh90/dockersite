@@ -1,0 +1,4 @@
+FROM centos:6
+LABEL maintainer="fa@gmail.com"
+
+RUN yum update -y && yum install git -y
